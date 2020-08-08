@@ -723,7 +723,7 @@ footer{
   height: 100px;
   border-top: solid 5px #DDA63A;
   box-shadow: 0 0 20px black;
-  width: 100%;
+  width: 100%;  
 }
 footer p{
   color: #DDA63A;
@@ -765,11 +765,11 @@ hr{
 
 .lg-nav{
   width: 90px;
+  height: auto;
 }
 
 .div-logo-nav{
   width: 100%;
-  
 }
 
 .div-logo-nav a{
@@ -936,6 +936,13 @@ hr{
   background: linear-gradient(to bottom right, rgb(22, 160, 133), rgb(54, 0, 77));
   justify-content: center;
   border: solid 5px #DDA63A;
+}
+
+.img-metas{
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+  
 }
 
 .div-metas-ir{
