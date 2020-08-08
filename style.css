@@ -359,7 +359,7 @@ padding: 30px;
 }
 
 .div-R{
-padding-top: 30px;
+padding: 30px;
 }
 
 .div-metas-ir{
@@ -765,7 +765,7 @@ hr{
 
 .lg-nav{
   width: 90px;
-  height: auto;
+  height: 90px;
 }
 
 .div-logo-nav{
