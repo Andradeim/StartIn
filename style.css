@@ -280,6 +280,7 @@ background: linear-gradient(to left, #4c8dcb, #669dd2 , #81aeda);
 background-color: #498bca;
 color: rgb(255, 255, 255);
 border-radius: 0 25px;
+margin-bottom: 10px;
 }
 
 .txt-SDG h1{
@@ -404,10 +405,12 @@ padding-left: 50px;
   }
 
   .img-metas{
-    width:240px;
-    height: 240px;
+    widows: 25vh;;
+    height: 25vh;
     border-radius: 50%;
-    }
+
+}
+
   .border-radios-1{
     border-radius: 25px 25px 0 0;
   }
