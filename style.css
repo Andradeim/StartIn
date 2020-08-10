@@ -405,7 +405,7 @@ padding-left: 50px;
   }
 
   .img-metas{
-    widows: 25vh;;
+    widows: 25vh;
     height: 25vh;
     border-radius: 50%;
 
@@ -622,9 +622,10 @@ justify-content: center;
 }
 
 .txt-HOW video{
+  margin-top: 10px;
 align-content: center;
-width: 240px;
-height: 240px;
+width: 30vh;
+height: 30vh;
 }
 
 
@@ -1205,7 +1206,25 @@ footer{
 
 }
 
+@media(max-width: 1470px){
+  .txt-HOW {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+    }
 
+  .txt-HOW hr{
+    margin: 10px;
+    height: auto;
+    width: 40vh;
+    border: solid 1.5px #DDA63A;
+    background-color: #DDA63A;
+    border-radius: 100%;
+  }
 
+  .txt-HOW p{
+    margin: 10px 0;
+    }
+}
 
 
