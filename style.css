@@ -74,6 +74,7 @@ body{
 display: flex;
 align-items: center;
 }
+
 .video-bg{
   display: block;
   margin: auto;
@@ -241,6 +242,11 @@ border-radius: 0 25px;
 
 .txt-UN h1{
 text-align: center;
+font-size: 1.8em;
+}
+
+.txt-UN p{
+  font-size: 1.2em;
 }
 
 .txt-UN:hover{
@@ -278,6 +284,11 @@ border-radius: 0 25px;
 
 .txt-SDG h1{
 text-align: center;
+font-size: 1.8em;
+}
+
+.txt-SDG p{
+  font-size: 1.2em;
 }
 
 .txt-SDG:hover{
@@ -318,6 +329,11 @@ flex-wrap: wrap-reverse;
 
 .txt-SDG2 h1{
 text-align: center;
+font-size: 1.8em;
+}
+
+.txt-SDG2 p{
+  font-size: 1.2em;
 }
 
 .txt-SDG2:hover{
@@ -421,6 +437,7 @@ padding-left: 50px;
     margin-right: 20px;
     text-align: justify;
     padding: 20px;
+    font-size: 1.2em;
   }
 
   .div-metas-ir:hover {
@@ -442,6 +459,7 @@ padding-left: 50px;
   }
   
   .div-metas-il h3{
+    text-align: start;
     margin-left: 20px;
     font-size: 1.5em;
   }
@@ -450,6 +468,7 @@ padding-left: 50px;
     text-align: justify;
     padding: 20px;
     color: auto;
+    font-size: 1.2em;
   }
   
   .div-metas-il:hover{
@@ -457,11 +476,6 @@ padding-left: 50px;
     background: #DDA63A;
     color: #ffffff;
     transition: 0.8s;
-  }
-  
-  .txt-metas-il h3{
-  text-align: start;
-  
   }
   
 
@@ -777,7 +791,7 @@ footer p{
 
 /*--------- RESPONSIVIDADE -----------*/
 
-@media(max-width: 1000px){
+@media(max-width: 1025px){
 
 body{
   max-width: 100%;
