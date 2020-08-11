@@ -625,14 +625,6 @@ align-items: center;
 justify-content: center;
 }
 
-.txt-HOW video{
-margin-top: 10px;
-align-content: center;
-width: 30vh;
-height: 30vh;
-}
-
-
 .txt-HOW hr{
 margin: 40px;
 height: 250px;
@@ -696,6 +688,81 @@ color: #DDA63A;
 
 /* ----- HOW.END ----- */
 
+/* ----- REASON.START ----- */
+
+.sec-REASON{
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: auto;
+  }
+  
+  .div-GERAL-REASON{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 0;
+  padding-bottom: 10px;
+  background-color: azure;
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  }
+  
+  .div-GERAL-REASON:hover{
+  box-shadow: 0 0 10px black;
+  transition: 0.3s;
+  }
+
+.div-REASON{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.video-REASON{
+  margin: 3vh 0;
+}
+
+.txt-REASON{
+  min-width:315px;
+  width: 60%;
+  padding: 0px 30px;
+  background: linear-gradient(to bottom right, #16a085, #36004d);
+  border-radius: 50px;
+  box-shadow: 0 0 10px black;
+  margin: 25px 0px;
+  }
+  
+  
+  .txt-REASON h2{
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  }
+  
+  .txt-REASON p{
+  color: #DDA63A;
+  text-indent: 1em;
+  font-size: 1.3em;
+  text-align: justify;
+  }
+  
+  .txt-REASON hr{
+  width: 500px;
+  border: solid 1.5px #DDA63A;
+  background-color: #DDA63A;
+  border-radius: 100%;
+  }
+
+/* ----- REASON.END ----- */
+
 /* ----- ABOUT.START ----- */
 
 .sec-ABOUT{
@@ -733,6 +800,8 @@ flex-wrap: wrap;
 width: 100%;
 height: auto;
 }
+
+
 
 .img-ABOUT img{
 margin: 20px;
@@ -1199,14 +1268,30 @@ hr{
   margin: 25px;
   }
 
-/* ----- ABOUT ----- */
+  /* ----- REASON ----- */
 
-.video-ABOUT{
-  width: auto;
-  height: auto;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
+  .video-REASON{
+    width: 70vw;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 5px black;
+
+  }
+  .txt-REASON{
+    min-width: auto;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    margin: 20px;
+  
+  }
+  /* ----- ABOUT ----- */
+
+.div-ABOUT{
+  flex-direction: column-reverse;
 }
 
 .video-ABOUT img{
