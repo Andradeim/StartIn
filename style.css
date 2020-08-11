@@ -801,8 +801,6 @@ width: 100%;
 height: auto;
 }
 
-
-
 .img-ABOUT img{
 margin: 20px;
 width: 325px;
@@ -811,15 +809,41 @@ box-shadow: 0 0 10px black;
 }
 
 .txt-ABOUT{
-min-width:315px;
+
 width: 60%;
 padding: 0px 30px;
+}
+.txt-div-ABOUT{
+min-width:315px;
+padding: 10px 30px 30px 30px;
 background: linear-gradient(to bottom right, #16a085, #36004d);
 border-radius: 50px;
 box-shadow: 0 0 10px black;
 margin: 25px 0px;
 }
 
+.txt-ABOUT .icon{
+  display: flex;
+  justify-content: center ;
+}
+.txt-ABOUT .icon a{
+  font-size: 2em;
+  margin:  0 5vw;
+  color: #00aeef;
+}
+
+#wpp{
+  color: #34af23;
+}
+#link{
+  color: #007bb6;
+}
+#email{
+  color: #dd4b39
+}
+#git{
+  color: #211f1f
+}
 
 .txt-ABOUT h2{
 text-align: center;
@@ -879,7 +903,7 @@ footer{
 }
 
 
-.flex1 a:hover{
+.flex1 .ft-home:hover{
   padding: 5px 3px;
   border: solid 3px rgba(221, 166, 58, 0.9);
   background: #ffffff;
@@ -1266,6 +1290,10 @@ hr{
   justify-content: center;
   align-items: center;
   margin: 25px;
+  }
+
+  #imgbutton-HOW{
+    font-size: 4em;
   }
 
   /* ----- REASON ----- */
