@@ -210,7 +210,7 @@ border-bottom: solid 5px #DDA63A;
 .div-UN{
 padding-top: 10px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 flex-wrap: wrap;
 align-items: center;
 width: 100%;
@@ -235,9 +235,6 @@ color: rgb(255, 255, 255);
 border-radius: 0 25px;
 }
 
-.video-UN{
-  padding-left: 50px;
-}
 
 .txt-UN h1{
 text-align: center;
@@ -256,7 +253,7 @@ transition: 0.5s;
 .div-SDG{
   padding-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -265,7 +262,8 @@ transition: 0.5s;
 }
 
 .div-SDG img{
-  width: 525px;
+  width: 350px;
+  height: 300px;
   height: auto;
 
 }
@@ -303,7 +301,7 @@ flex-wrap: wrap-reverse;
 .div-SDG2{
   padding-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -313,6 +311,8 @@ flex-wrap: wrap-reverse;
 }
 
 .div-SDG2 img{
+  width: 300px;
+  height: 300px;
   margin-left: 50px;
 }
 
@@ -341,12 +341,16 @@ font-size: 1.8em;
   transition: 0.5s;
 }
 
+.video-UN{
+  margin-right: 7%;
+}
+
 .video-SDG{
-padding-right: 50px;
+  margin-left: 8%;
 }
 
 .video-SDG2{
-padding-left: 50px;
+  margin-right: 8%;
 }
 
 /* ----- GERAL.END ----- */
@@ -1082,9 +1086,9 @@ hr{
   width: 100%;
   }
 
-  .div-GOAL{
+.div-GOAL{
     height: auto;
-  }
+}
 
 .img-GOAL{
   width: 200px;
@@ -1238,4 +1242,79 @@ footer{
     }
 }
 
+@media(max-width: 1650px){
+
+  .div-UN{
+    background: linear-gradient(to bottom, #00aeef, #ffffff);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-radius: 25px 25px 0 0;
+    width: 80vw;
+  }
+  .video-UN{
+    padding: 0;
+    margin: 0;
+    }
+
+  .txt-UN{
+    width: 50vw;
+    margin: 10px;
+    height:auto;
+    text-align: justify;
+    background:#00aeef;
+
+  }
+
+  .div-SDG{
+
+    background: linear-gradient(to bottom, #498bca, #ffffff);
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    width: 80vw;
+
+  }
+
+  .video-SDG{
+    padding-right: 0;
+    margin: 0;
+    }
+
+  .txt-SDG{
+    width: 50vw;
+    margin: 10px;
+    height:auto;
+    text-align: justify;
+    background:#498bca;
+
+  }
+
+  .div-SDG2{
+    background: linear-gradient(to bottom, #16a085, #c7fff4);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 80vw;
+    margin-bottom: 10vh;
+    border-radius: 0 0 25px 25px;
+
+  }
+
+  .video-SDG2{
+    padding: 0;
+    margin: 0;
+    }
+
+  .txt-SDG2{
+    width: 50vw;
+    margin: 10px;
+    height:auto;
+    text-align: justify;
+    background:#24a68c;
+
+  }
+
+
+
+}
 
